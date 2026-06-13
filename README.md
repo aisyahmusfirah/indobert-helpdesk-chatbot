@@ -1,8 +1,8 @@
 # IndoBERT Chatbot - Sistem Layanan Informasi IT Kampus Terintegrasi Discord
 
-Repositori ini berisi dokumentasi dan implementasi proyek **Demo Day Tugas Mata Kuliah Pemrosesan Bahasa Alami**. Proyek ini berfokus pada pengembangan Chatbot cerdas berbasis **IndoBERT** (`indobenchmark/indobert-base-p2`) yang ditugaskan khusus sebagai **Asisten Virtual Pusat Bantuan (Helpdesk) IT Kampus**. 
+Repositori ini berisi dokumentasi dan implementasi proyek Demo Day Tugas Mata Kuliah Pemrosesan Bahasa Alami. Proyek ini berfokus pada pengembangan Chatbot cerdas berbasis IndoBERT (`indobenchmark/indobert-base-p2`) yang ditugaskan khusus sebagai Asisten Virtual Pusat Bantuan (Helpdesk) IT Kampus. 
 
-Sistem ini diintegrasikan dengan **Discord Bot** sebagai antarmuka interaksi mahasiswa (*frontend*) dan **FastAPI** sebagai mesin pemrosesan inferensi bahasa (*backend*).
+Sistem ini diintegrasikan dengan Discord Bot sebagai antarmuka interaksi mahasiswa (*frontend*) dan FastAPI sebagai mesin pemrosesan inferensi bahasa (*backend*).
 
 ## 🎯 Spesifikasi Tugas & *Use Case*
 Chatbot ini dirancang untuk mengenali, melakukan tokenisasi, dan merespons berbagai kendala teknis yang sering dihadapi oleh mahasiswa di lingkungan institusi, antara lain:
@@ -32,13 +32,13 @@ Proyek Demo Day ini disusun, dikembangkan, dan diselesaikan secara kolaboratif o
 | No | Nama Anggota | NIM | 
 |:--:|:---|:---:|
 | 1 | **Aisyah Musfirah** | 123450084 |
-| 2 | **Raihana Adelia Putri** | 1234500XX | 
-| 3 | **Anggi Puspita Ningrum** | 1234500XX |
+| 2 | **Raihana Adelia Putri** | 123450041 | 
+| 3 | **Anggi Puspita Ningrum** | 123450012 |
 
 ---
 ## 📚 Referensi & Sumber Daya
 
-Proyek ini dibangun dengan memanfaatkan pustaka, model pre-trained, dan panduan dari sumber-sumber berikut:
+Proyek ini dibangun dengan memanfaatkan pustaka, model *pre-trained*, dan panduan dari sumber-sumber berikut:
 
 1. [Sains Data ITERA - Praktikum Pemrosesan Bahasa Alami](https://github.com/sains-data/praktikum-pemrosesan-bahasa-alami/tree/main)
 2. [Google BERT Base Chinese](https://huggingface.co/google-bert/bert-base-chinese) 
