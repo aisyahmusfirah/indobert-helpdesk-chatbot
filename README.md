@@ -36,25 +36,25 @@ Pengujian dilakukan untuk memastikan fungsionalitas API backend, model NLP (BERT
 ### 1. Pemeriksaan Kesehatan API (API Health Check)
 Sebelum bot berinteraksi dengan pengguna, backend API diuji untuk memastikan bahwa model BERT telah dimuat dengan benar ke dalam memori.
 
-![API Health Check](docs/assets/cl1.PNG)
+![API Health Check](docs/assets/cl1.PNG)\
 *Gambar: cl1.PNG — Status respons JSON menunjukkan sistem dalam keadaan `healthy` dan `model_loaded: true`.*
 
 ### 2. Pengujian Inferensi API Backend (POST Request)
 Sebelum mengintegrasikannya dengan antarmuka Discord, dilakukan pengujian inferensi model melalui terminal menggunakan PowerShell (`Invoke-RestMethod`). Pengujian ini bertujuan untuk memastikan endpoint `/chat` dapat menerima kueri berbasis teks dan mengembalikan respons prediksi dari model BERT secara akurat.
 
-![Pengujian Inferensi API](docs/assets/cl2.PNG)
+![Pengujian Inferensi API](docs/assets/cl2.PNG)\
 *Gambar: cl2.PNG — Dokumentasi pengujian endpoint `/chat` dengan input kueri kendala teknis kampus.*
 
 ### 3. Logika Respons Model pada Discord
 Setelah backend API dipastikan berfungsi, bot diintegrasikan ke platform Discord untuk menangani pesan dari pengguna secara langsung di dalam server.
 
-![Pengujian Respons Bot](docs/assets/cl3.PNG)
+![Pengujian Respons Bot](docs/assets/cl3.PNG)\
 *Gambar: cl3.PNG — Demonstrasi interaksi pengguna dengan NLP Demo 2 Chatbot di saluran `#general`.*
 
 ### 4. Lingkungan Deployment Terintegrasi
 Gambar di bawah ini menunjukkan keselarasan operasional antara eksekusi skrip `bot.py` pada terminal lokal, status API backend, dan visualisasi interaksi real-time pada aplikasi Discord.
 
-![Integrasi Sistem](docs/assets/cl4-5.PNG)
+![Integrasi Sistem](docs/assets/cl4-5.PNG)\
 *Gambar: cl4-5.PNG — Alur kerja end-to-end dari inisialisasi bot hingga penanganan kueri spesifik mahasiswa.*
 
 ## Identitas Kelompok
