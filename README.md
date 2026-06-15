@@ -48,7 +48,7 @@ Sebelum mengintegrasikannya dengan antarmuka Discord, dilakukan pengujian infere
 ### 3. Logika Respons Model pada Discord
 Setelah backend API dipastikan berfungsi, bot diintegrasikan ke platform Discord untuk menangani pesan dari pengguna secara langsung di dalam server.
 
-![Pengujian Respons Bot](docs/assets/cl3.PNG)\
+![Pengujian Respons Bot]()\
 *Gambar: cl3.PNG — Demonstrasi interaksi pengguna dengan NLP Demo 2 Chatbot di saluran `#general`.*
 
 ### 4. Lingkungan Deployment Terintegrasi
