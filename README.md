@@ -71,7 +71,7 @@ Proyek Demo Day ini disusun, dikembangkan, dan diselesaikan secara kolaboratif o
 | 3 | **Anggi Puspita Ningrum** | 123450012 |
 
 ---
-## 📚 Referensi & Sumber Daya
+## Referensi
 
 Proyek ini dibangun dengan memanfaatkan pustaka, model *pre-trained*, dan panduan dari sumber-sumber berikut:
 
